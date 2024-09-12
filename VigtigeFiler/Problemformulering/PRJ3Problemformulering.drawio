@@ -1,0 +1,88 @@
+<mxfile host="app.diagrams.net" modified="2024-09-12T15:43:37.455Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" etag="SxDrOyCovVSMb9FAmlUy" version="24.5.4" type="device">
+  <diagram name="Side-1" id="fUeROAYFBgGHXfW5eNNi">
+    <mxGraphModel dx="1323" dy="1856" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="GqNGVCQcY5wYpQDdXGrC-1" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://sengesnedkeren.dk/wp-content/uploads/bronderslev-120-cover70-camera1.png;" vertex="1" parent="1">
+          <mxGeometry x="70" y="-10" width="854.49" height="690" as="geometry" />
+        </mxCell>
+        <mxCell id="GqNGVCQcY5wYpQDdXGrC-2" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#FFFFFF;shape=mxgraph.azure.tablet;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="130" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GqNGVCQcY5wYpQDdXGrC-4" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.johnsnowlabs.com/wp-content/uploads/2018/01/sleep-data-2.png;" vertex="1" parent="1">
+          <mxGeometry x="238.26" y="137.56" width="123.48" height="64.87" as="geometry" />
+        </mxCell>
+        <mxCell id="GqNGVCQcY5wYpQDdXGrC-6" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#000000;shadow=0;dashed=0;shape=mxgraph.ios7.icons.box;fillColor=#B3B3B3;" vertex="1" parent="1">
+          <mxGeometry x="767" y="290" width="60" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="GqNGVCQcY5wYpQDdXGrC-8" value="&lt;i&gt;Opbevaring - enheder&lt;/i&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=1;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="767" y="260" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GqNGVCQcY5wYpQDdXGrC-16" value="" style="shape=mxgraph.signs.tech.rss;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;rotation=-180;" vertex="1" parent="1">
+          <mxGeometry x="630" y="161" width="48" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="GqNGVCQcY5wYpQDdXGrC-17" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;curved=0;" edge="1" parent="1" source="GqNGVCQcY5wYpQDdXGrC-6" target="GqNGVCQcY5wYpQDdXGrC-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="700" y="335" />
+              <mxPoint x="700" y="161" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GqNGVCQcY5wYpQDdXGrC-18" value="" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="452.25" y="230" width="90" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="GqNGVCQcY5wYpQDdXGrC-19" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;curved=0;" edge="1" parent="1" source="GqNGVCQcY5wYpQDdXGrC-6" target="GqNGVCQcY5wYpQDdXGrC-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="700" y="335" />
+              <mxPoint x="700" y="293" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GqNGVCQcY5wYpQDdXGrC-20" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/bootstrap-vol-3/16/heart-pulse-128.png" vertex="1" parent="1">
+          <mxGeometry x="484.25" y="280" width="26" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="GqNGVCQcY5wYpQDdXGrC-21" value="&lt;i&gt;Bevægelses&lt;/i&gt;&lt;div&gt;&lt;i&gt;sensor&lt;/i&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="620" y="130" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GqNGVCQcY5wYpQDdXGrC-23" value="" style="shape=mxgraph.signs.tech.rss;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;rotation=135;" vertex="1" parent="1">
+          <mxGeometry x="473.25" y="137.56" width="48" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="GqNGVCQcY5wYpQDdXGrC-24" value="&lt;i&gt;Lyd sensor&lt;/i&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="467.24" y="90" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GqNGVCQcY5wYpQDdXGrC-25" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;curved=0;" edge="1" parent="1" source="GqNGVCQcY5wYpQDdXGrC-6" target="GqNGVCQcY5wYpQDdXGrC-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="700" y="335" />
+              <mxPoint x="700" y="120" />
+              <mxPoint x="497" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GqNGVCQcY5wYpQDdXGrC-26" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;curved=0;" edge="1" parent="1" source="GqNGVCQcY5wYpQDdXGrC-6" target="GqNGVCQcY5wYpQDdXGrC-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="700" y="335" />
+              <mxPoint x="700" y="255" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GqNGVCQcY5wYpQDdXGrC-27" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/css-vol-2/24/headset-128.png" vertex="1" parent="1">
+          <mxGeometry x="467.24" y="219" width="61" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="GqNGVCQcY5wYpQDdXGrC-30" value="&lt;i&gt;Bruger -&amp;nbsp;&lt;/i&gt;&lt;div&gt;&lt;i&gt;grænseflade&lt;/i&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="260" y="90" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GqNGVCQcY5wYpQDdXGrC-32" value="&lt;i&gt;EEG &amp;amp; EKG&lt;/i&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="467.24" y="189" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GqNGVCQcY5wYpQDdXGrC-33" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;SmartSleep&lt;/h1&gt;&lt;p&gt;Et system, der ved hjælp af sensorer kan overvåge og analysere en brugers søvn i realtid. Anvendelse af data fra bevægelsessensorer, mikrofoner, pulsmålere og EEG-målinger fra hjernen.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=#E6E6E6;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="730" y="53" width="140" height="200" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
