@@ -1,31 +1,45 @@
-\documentclass{article}
-
-% Packages
+\documentclass[a4paper,12pt]{article}
 \usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc}
-\usepackage{geometry}
-\usepackage{titlesec}
+\usepackage{graphicx}
+\usepackage{hyperref}
 
-% Page setup
-\geometry{a4paper, margin=2.5cm}
-\titleformat{\section}{\normalfont\Large\bfseries}{\thesection}{1em}{}
-\titleformat{\subsection}{\normalfont\large\bfseries}{\thesubsection}{1em}{}
-
-% Title
-\title{Problemformulering}
-\author{Group 4}
-\date{\today}
+\title{SleepMaxx - Projekt/Problemformulering}
+\author{}
+\date{}
 
 \begin{document}
 
 \maketitle
 
-\section{Problemformulering}
-% Add your introduction here
-Mange mennesker oplever udfordringer med at optimere deres søvnkvalitet, selvom de overholder anbefalingerne om 7-9 timers søvn pr. nat. Søvnkvalitet påvirkes af en række faktorer, såsom søvnstadie, puls, bevægelser, og støj i omgivelserne, men den gennemsnitlige person har begrænset indsigt i disse parametre og deres indflydelse på søvnens effektivitet. Dette fører ofte til en situation, hvor selv tilstrækkelig søvn i antal timer ikke nødvendigvis resulterer i optimal hvile eller restitution.
+Mangel på kvalitetsrig søvn er et gennemgående problem for mange mennesker. En dårlig søvn gør ikke kun en træt, det påvirker også en masse andre parametre. Øget stressniveau, nedsat koncentrationsevne og svækket immunforsvar er blot nogle af de mange negative konsekvenser, som dårlig søvn indebærer. Et eksperiment i 2018 er kommet frem til, at 41\% af danskere sover dårligt og uroligt. Det anbefales, at den gennemsnitlige person sover 7-9 timer pr. nat, men dette er ikke den eneste forudsætning for en god søvn. Gennem research er man kommet frem til en række faktorer, som spiller ind i kvaliteten af søvn, blandt andet søvnstadie, støj i omgivelser osv. Det er dog begrænset, hvor meget indsigt den gennemsnitlige person har i sin egen søvn.
 
-Formålet med dette projekt er at udvikle SmartSleep, et system, der ved hjælp af sensorer kan overvåge og analysere en brugers søvn i realtid. Ved at anvende data fra bevægelsessensorer, mikrofoner, pulsmålere og EEG-målinger fra hjernen, vil systemet være i stand til at identificere søvnmønstre, herunder urolig søvn, snorken og pulsvariationer, samt give en detaljeret evaluering af søvnens kvalitet. Systemet vil præsentere en brugervenlig søvnrapport på en touchskærm tilknyttet en Raspberry Pi, og vil desuden fungere som et smart vækkeur, der kan tilpasses brugerens individuelle behov. Gennem disse funktionaliteter søger projektet at forbedre den enkeltes evne til at optimere deres søvnvaner og dermed opnå en højere livskvalitet.
+Formålet med projektet er at skabe og udvikle et system, SleepMaxx, der tackler disse problemstillinger. SleepMaxx vil anvende en række sensorer, der samlet skal kunne give en evaluering af den pågældende søvn:
 
-Denne problemstilling er relevant, da en stor del af befolkningen undervurderer søvnens betydning for sundhed og præstation, og vi sigter derfor mod at skabe et værktøj, der kan give brugeren den nødvendige indsigt til at forbedre søvnkvaliteten.
+\begin{itemize}
+    \item En mikrofon der skal observere snorken og støj i rummet.
+    \item En bevægelsessensor der skal måle uroligheder i løbet af natten.
+    \item Pulsmålere da en persons puls under søvn kan være med til at give et indblik i søvnkvalitet.
+    \item EEG-teknologi - dette vil omfatte elektroder, der skal kunne observere hvilket søvnstadie brugeren befinder sig i. Her kan der også beregnes, hvornår det optimale interval for at vække brugeren ville være.
+\end{itemize}
+
+Udover at indsamle data om brugerens søvnkvalitet skal SleepMaxx også kunne vække brugeren. Derfor implementeres der yderligere en højtaler, der skal fungere som en alarm. Denne alarm skal kunne indstilles gennem en brugergrænseflade, som er tilknyttet systemet.
+
+SleepMaxx er tiltænkt de personer, som ønsker at optimere deres søvn for at være den bedste version af dem selv. Derfor vil brugerfladen også kunne fremvise data for den observerede søvn og samtidig komme med anbefalinger til optimering af søvn baseret på de resultater, som systemet er kommet frem til.
+
+Til udførelse af projektet vil der gøres brug af en PSoC. Denne mikrocontroller har til formål at styre højtaleren og samtlige sensorer og dertil indsamle data fra disse. Derudover anvendes en Raspberry Pi som interface til PSoC, og den skal samtidig agere som grænseflade, som brugeren kan interagere med.
+
+Det ønskes, at SleepMaxx kan integreres med andre IoT-enheder for yderligere at optimere systemets funktionalitet. Det kunne indebære en glidende overgang af lysniveau vha. automatisk lys- og gardinregulering. 
+
+Alt dette skal medføre en optimering af brugerens søvn- og dermed livskvalitet.
+
+\section{Billeder}
+Figur 1: Rigt billede af SleepMaxx
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=1\textwidth]{SleepMaxx_image.png}
+    \caption{SleepMaxx systembillede}
+    \label{fig:sleepmaxx}
+\end{figure}
 
 \end{document}
